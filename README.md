@@ -1,6 +1,8 @@
 # react-native-scroll-to-top
 A React Native component to scroll back to top
 
+![preview](/docs/scrollToTop.gif)
+
 ## Installation
 
 - `npm install react-native-scroll-to-top --save`
