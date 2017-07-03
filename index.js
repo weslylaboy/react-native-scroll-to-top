@@ -62,7 +62,7 @@ class ScrollToTop extends Component {
       return this.props.backgroundColor;
     }
     if (this.props.text && !this.props.icon) {
-      return '#fff';
+      return '#546e7a';
     }
     return null;
   };
