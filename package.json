@@ -1,6 +1,6 @@
 {
   "name": "react-native-scroll-to-top",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React Native component to scroll back to top",
   "main": "index.js",
   "scripts": {
