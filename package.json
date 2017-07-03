@@ -4,7 +4,7 @@
   "description": "A React Native component to scroll back to top",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/weslylaboy/react-native-scroll-to-top/issues"
   },
-  "homepage": "https://github.com/weslylaboy/react-native-scroll-to-top#readme"
+  "homepage": "https://github.com/weslylaboy/react-native-scroll-to-top#readme",
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^15.0.1"
+  }
 }
