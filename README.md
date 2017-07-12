@@ -14,7 +14,7 @@ A React Native component to scroll back to top
  Property	|	Type		|	Default		|	Description |
 :---------|:--------|:----------|:------------|
 rootView	|	object	|		|	This prop is required. You must pass a ref of the root view. This will be used to scroll to the top.
-ListView | bool | `false` | `true` if your List is a `ListView`. `false` if your List if a `FlatList`.
+ListView | bool | `false` | `true` if your List is a `ListView`, `false` if your List is a `FlatList`.
 backgroundColor | string | `null` | Background color of the view
 borderRadius | number | 30 | Border radius for the view
 color | string | `#ffffff` | Color of the view
