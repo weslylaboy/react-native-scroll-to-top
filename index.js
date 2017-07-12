@@ -37,6 +37,7 @@ class ScrollToTop extends Component {
     icon: PropTypes.element,
     text: PropTypes.string,
     rootView: PropTypes.objectOf(PropTypes.shape).isRequired,
+    ListView: PropTypes.bool
   };
 
   static defaultProps = {
@@ -51,10 +52,12 @@ class ScrollToTop extends Component {
     fontSize: 12,
     icon: null,
     text: 'Scroll to Top',
+    ListView: false,
   };
 
   onPress() {
-    this.props.rootView.scrollTo({ x: 0, y: 0, animated: true });
+    if(this.props.ListView) this.props.rootView.scrollTo({ x: 0, y: 0, animated: true });
+    else this.props.rootView.scrollToOffset({offset: 0, animated: true}); 
   }
 
   getBackgroundColor = () => {
